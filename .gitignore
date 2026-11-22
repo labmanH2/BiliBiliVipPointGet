@@ -1,0 +1,31 @@
+# ---- 私有配置（绝对不要提交）----
+config.json
+tv_login.json
+
+# ---- 运行产物 ----
+run_state.json
+*.log
+run_daily.cmd
+run_hidden.vbs
+qrcode.png
+captures/
+
+# ---- 个人抓包 / 调试素材 ----
+_probe/
+_rev/
+_research/
+oss/
+装扮商城任务*.txt
+观看剧集任务*.txt
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
