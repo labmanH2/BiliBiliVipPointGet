@@ -1,0 +1,48 @@
+{
+  "cookie": {
+    "SESSDATA": "在此填入你的 SESSDATA",
+    "bili_jct": "在此填入你的 bili_jct",
+    "DedeUserID": "在此填入你的 DedeUserID",
+    "DedeUserID__ckMd5": "",
+    "buvid3": "",
+    "buvid4": ""
+  },
+  "settings": {
+    "watch_mode": "app_api",
+    "watch_duration_seconds": 660,
+    "bangumi_url": "https://www.bilibili.com/bangumi/play/ep286838",
+    "bangumi_ep_id": 286838,
+    "bangumi_season_id": 28735,
+    "browser_channel": "msedge",
+    "browser_headless": false,
+    "browse_wait_seconds": 10,
+    "try_channel_tasks": true,
+    "max_attempts_per_day": 2,
+    "app_device_id": "f9abaee74692f9e9",
+    "app_session_id": "120548f6",
+    "request_timeout": 30,
+    "retry_times": 3,
+    "retry_delay": 5,
+    "oqi_blindbox": {
+      "enabled": true,
+      "do_sign": true,
+      "do_daily_tasks": true,
+      "claim_grade_rewards": "sunday",
+      "browse_wait_margin": 3,
+      "request_interval": [1.5, 3.5],
+      "request_timeout": 25
+    }
+  },
+  "log": {
+    "log_to_file": true,
+    "log_file": "bilibili_vip_point.log",
+    "log_level": "INFO"
+  },
+  "notify": {
+    "enabled": false,
+    "provider": "serverchan",
+    "send_key": "在此填入你的 Server酱 SendKey（SCT... 或 sctp...）",
+    "title_prefix": "B站",
+    "timeout": 30
+  }
+}
